@@ -1,23 +1,53 @@
 /* Instaclone CSS */
 
-#header {position: fixed; top:0;left: 0; width: 100%; height: 55px; background: rgb(238, 238, 236); z-index: 1000; border-bottom: 1px solid rgb(202, 197, 197);}
+#header {position: fixed; top:0;left: 0; width: 100%; height: 55px; background: rgb(255, 255, 255); z-index: 1000; border-bottom: 1px solid rgb(202, 197, 197);}
 #header div.topCover {position: relative; width: 1200px; margin: 0 auto;}
 #header div.topCover p {float:left; padding:0 12px; text-align:center;}
 #header div.topCover a:hover {color: rgb(255, 255, 255);}
-.spc {float: left; top: 0; width: 1px; height: 55px;background: rgb(238, 238, 238); }
+.spc {float: left; top: 0; width: 1px; height: 55px;background: rgb(255, 255, 255); }
+
+#logo {
+    height: 14px;
+}
 
 
 .Input{
-    width: 200px;
+    margin-left: 255px;
+    width: 250px;
     height: 12px;
     padding: 7px;
     box-sizing: content-box;
     background-color: #fafafa;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-    background-image: url("/media/search-icon.png");
+    background-image: url("https://w7.pngwing.com/pngs/242/281/png-transparent-computer-icons-magnifier-symbol-magnifying-glass-magnifying-miscellaneous-logo-zooming-user-interface-thumbnail.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 5% center;
+    font-size: 14px;
 }
-.Input:focus{
-    background-position: 10% center;
+.Input:focus {
+    background-position: -20% center;
     outline: auto;
+}
+.Input::placeholder {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.Input:focus::placeholder {
+    text-align: start;
+    border: #8e8e8e;
+}
+.Input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-position: center left;
+    background-image: url("https://w7.pngwing.com/pngs/895/550/png-transparent-black-and-white-logo-computer-icons-symbol-free-of-close-button-icon-miscellaneous-trademark-sign.png");
+    background-repeat: no-repeat;
+    background-size: 14px;
+    
 }
