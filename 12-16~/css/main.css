@@ -8,8 +8,6 @@
 .spc {display: block;float: left; top: 0; width: 100px; height: 55px; background: rgb(255, 255, 255); }
 .logo img{width: 105px; height: 32px; margin-left: 60px;}
 
-
-
 .small-icon {
     display: flex;
     padding: 17px 40px;
@@ -19,7 +17,6 @@
     height: 22px;
     padding: 0 10px;
 }
-
 
 .Input {
     margin-left: 205px;
