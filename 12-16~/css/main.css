@@ -6,6 +6,9 @@
 #header div.topCover a:hover {color: rgb(255, 255, 255);}
 
 .spc {display: block;float: left; top: 0; width: 100px; height: 55px; background: rgb(255, 255, 255); }
+.logo img{width: 105px; height: 32px; margin-left: 60px;}
+
+
 
 .small-icon {
     display: flex;
@@ -19,7 +22,7 @@
 
 
 .Input {
-    margin-left: 255px;
+    margin-left: 205px;
     width: 250px;
     height: 12px;
     padding: 7px;
