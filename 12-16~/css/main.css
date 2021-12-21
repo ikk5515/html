@@ -56,6 +56,10 @@
     top: 90px;
     background: #fafafa;
 }
+.main .article {
+    display: flex;
+    margin: auto auto;
+}
 /* //main */
 
 /* left */
@@ -66,7 +70,7 @@
 .left_content {
     width: 665px;
     box-sizing: border-box;
-    margin-right: 50px;
+    margin-left: 60px;
 }
 .left_content .feed_inner {
     position: relative;
