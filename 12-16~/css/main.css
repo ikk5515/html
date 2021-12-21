@@ -48,14 +48,6 @@
     text-align: start;
     border: #8e8e8e;
 }
-.Input::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-    position: relative;
-    width: 14px;
-    height: 14px;
-    background-position: center left;
-    background-image: url("https://w7.pngwing.com/pngs/895/550/png-transparent-black-and-white-logo-computer-icons-symbol-free-of-close-button-icon-miscellaneous-trademark-sign.png");
-    background-repeat: no-repeat;
-    background-size: 14px;
-}
 /* //header */
+
+/* main */
