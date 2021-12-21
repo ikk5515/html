@@ -112,6 +112,59 @@
 .feed_outline img {
     width: 100%;
 }
-.feed_all {
-    position: relative;
+.feeds_all .feed_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon_list img {
+    width: 26px;
+    height: 26px;
+    padding: 0 8px;
+}
+.icon_list {
+    display: flex;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bookmark_feed {
+    display: flex;
+    margin-right: 10px;
+}
+.feed_like_comment .profile_img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+}
+.people_info .all_people_like .user {
+    font-size: 15px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+.all_people_like .like_person {
+    font-size: 15px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+
+.story_all {
+    font-size: 13px;
+    margin-left: 12px;
+}
+.story_all .id {
+    font-weight: bold;
+}
+.see_all_comments {
+    font-size: 8px;
+    margin-left: 12px;
+    margin-top: 5px;
+    color: #8b9196;
+}
+.feed_in_time {
+    font-size: 8px;
+    margin-left: 12px;
+    color:#8b9196
 }
