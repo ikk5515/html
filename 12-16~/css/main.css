@@ -2,12 +2,12 @@
 
 /* header */
 #header {position: fixed; top:0;left: 0; width: 100%; height: 55px; background: rgb(255, 255, 255); z-index: 1000; border-bottom: 1px solid rgb(202, 197, 197);}
-#header div.topCover {position: relative; width: 1200px; margin: 0 auto;}
+#header div.topCover {position: fixed; width: 1200px; margin: 0 auto;}
 #header div.topCover p {float:left; padding:0 12px; text-align:center;}
 #header div.topCover a:hover {color: rgb(255, 255, 255);}
 
 .spc {display: block;float: left; top: 0; width: 100px; height: 55px; background: rgb(255, 255, 255); }
-.logo img{display: flex; width: 105px; height: 32px; margin-left: 60px;}
+.logo img{display: fixed; width: 105px; height: 32px; margin-left: 60px;}
 
 .small-icon {
     display: flex;
@@ -159,12 +159,81 @@
 }
 .see_all_comments {
     font-size: 8px;
-    margin-left: 12px;
+    margin-left: 11px;
     margin-top: 5px;
     color: #8b9196;
 }
-.feed_in_time {
-    font-size: 8px;
+
+.comment-all {
     margin-left: 12px;
-    color:#8b9196
+    font-size: 13px;
+    margin-top: 5px;
+}
+.comment-id {
+    font-weight: bold;
+}
+
+.feed_in_time {
+    font-size: 6px;
+    margin-left: 11px;
+    color:#8b9196;
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+.comments_input .input_box .comments_box{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 10px 10px;
+}
+.button_box .post_btn{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    right: 15px;
+    bottom: 12px;
+}
+.button_box .post_btn .post {
+    font-size: 15px;
+    color: rgb(0, 153, 255);
+}
+
+/* right */
+.recommend_list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.right_contents {
+    position: fixed;
+    width: 400px;
+}
+.aside_profile .profile .profile_img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 30px;
+    
+}
+.aside_profile .profile_info {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.aside_profile .profile_info .profile_id {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.aside_profile .profile_info .profile_name {
+    margin-left: -65px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #8b9196;
 }
