@@ -8,6 +8,8 @@
 
 .spc {display: block;float: left; top: 0; width: 100px; height: 55px; background: rgb(255, 255, 255); }
 .logo img{display: fixed; width: 105px; height: 32px; margin-left: 60px;}
+.spc2 {display: block; height: 10px; background: #fafafa;}
+.spc3 {display: block; height: 70px; background: #fafafa;}
 
 .small-icon {
     display: flex;
@@ -209,10 +211,11 @@
     padding-left: 0px;
 }
 .right_contents {
-    position: fixed;
     width: 400px;
+    position: fixed;
 }
 .aside_profile .profile .profile_img {
+    position: fixed;
     float: left;
     width: 50px;
     height: 50px;
@@ -223,17 +226,80 @@
 .aside_profile .profile_info {
     display: flex;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    white-space: nowrap;
 }
 .aside_profile .profile_info .profile_id {
-    display: inline-block;
+    display: block;
+    position: fixed;
     margin-left: 20px;
+    margin-top: 5px;
     font-weight: bolder;
     font-size: 17px;
 }
 .aside_profile .profile_info .profile_name {
-    margin-left: -65px;
-    margin-top: 20px;
+    display: block;
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 25px;
     font-size: 15px;
     color: #8b9196;
+}
+.recommend_people {
+    position: fixed;
+    white-space: nowrap;
+}
+.recommend_people .recommend_text {
+    font-size: 14px;
+    margin-left: 20px;
+    color: #7b8083;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.recommend_people .recommend_all {
+    font-size: 14px;
+    margin-left: 80px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.recommend_list .profile_img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.recommend_list .profile_info {
+    font-size: 14px;
+    float: right;
+}
+.recommend_list .profile_info .profile_id {
+    display: block;
+    margin-left: -200px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.recommend_list .profile_info .profile_name {
+    display: block;
+    margin-left: -200px;
+    color: #8b9196;
+}
+.recommend_list .follow_btn {
+    background-color: #fafafa;
+    float: right;
+}
+.recommend_list .follow_btn .btn {
+    font-size: 15px;
+    color: rgb(0, 153, 255);
+    background-color: #fafafa;
+    border: none;
+}
+.footer {
+    display: block;
+    position: fixed;
+    padding: 350px;
+    margin-left: 400px;
+    color: #8b9196;
+    font-size: 15px;
+    white-space: nowrap;
 }
